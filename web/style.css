@@ -1,0 +1,208 @@
+body {
+	/* text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+	*/
+	font-weight:normal;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana, Arial, Helvetica, sans-serif;
+	font-size:16px;
+}
+
+tr{
+	cursor:pointer;
+}
+
+.loading {
+	font-size: 2em;
+}
+
+.link {
+	stroke-width: 2px;
+}
+
+.nodetext {
+	pointer-events: none;
+	font: 16px sans-serif;
+	stroke: #fff;
+	stroke-width: .5px;
+}
+
+.type0, .ENERGY{
+	stroke: #023858;
+	fill:#023858;
+	background-color: #023858;
+}
+
+.type1, .NMP{
+	stroke: #045a8d;
+	fill:#045a8d;
+	background-color:#045a8d;
+}
+
+.type2, .SPA{
+	stroke: #0570b0;
+	fill:#0570b0;
+	background-color:#0570b0;
+}
+
+.type3, .SEC{
+	stroke: #3690c0;
+	fill:#3690c0;
+	background-color:#3690c0;
+}
+
+.type4, .TPT{
+	stroke: #74a9cf;
+	fill:#74a9cf;
+	background-color:#74a9cf;
+}
+
+.type5, .HEALTH{
+	stroke: #a6bddb;
+	fill:#a6bddb;
+	background-color:#a6bddb;
+}
+
+.type6, .ICT{
+	stroke: #453494;
+	fill:#453494;
+	background-color:#453494;
+}
+
+.type7, .ENV{
+	stroke: #225ea8;
+	fill:#225ea8;
+	background-color:#225ea8;
+}
+
+.type8, .GA{
+	stroke: #261d26;
+	fill:#261d26;
+	background-color:#261d26;
+}
+
+.type9, .SSH{
+	stroke: #0132051;
+	fill:#0132051;
+	background-color:#0132051;
+}
+
+.type10, .KBBE{
+	stroke: #384049;
+	fill:#384049;
+	background-color:#384049;
+}
+
+.type11, .ERC{
+	stroke: #f58220;
+	fill:#f58220;
+	background-color:#f58220;
+}
+
+.type12, .PEOPLE{
+	stroke:#84095b;
+	fill:#84095b;
+	background-color:#84095b;
+}
+
+.type13, .INCO{
+	stroke: #00441b;
+	fill: #00441b;
+	background-color: #00441b;
+}
+
+.type14, .SiS{
+	stroke: #006d2c;
+	fill:#006d2c;
+	background-color:#006d2c;
+}
+
+.type15, .REGPOT{
+	stroke: #238b45;
+	fill:#238b45;
+	background-color:#238b45;
+}
+
+.type16, .INFRA{
+	stroke: #41ab5d;
+	fill:#41ab5d;
+	background-color:#41ab5d;
+}
+
+.type17, .SME{
+	stroke: #74c476;
+	fill:#74c476;
+	background-color:#74c476;
+}
+
+.type18, .COH{
+	stroke: #a1099b;
+	fill:#a1099b;
+	background-color:#a1099b;
+}
+
+.type19, .REGIONS{
+	stroke: #c7e9c0;
+	fill:#c7e9c0;
+	background-color:#c7e9c0;
+}
+
+.type20, .Fission{
+	stroke: #000000;
+	fill:#000000;
+	background-color:#000000;
+}
+
+.type21, .Fusion{
+	stroke: #353535;
+	fill:#353535;
+	background-color:#353535;
+}
+
+/*
+NMP
+*/
+.labels text {
+	pointer-events: none;
+	font: 10px sans-serif;
+	cursor: default;
+}
+
+/*
+.type1 {
+stroke: #6d856e;
+fill:#0868AC;
+}
+.type1.circle {
+fill-opacity: .5;
+}
+.type1.nodetext {
+stroke: inherit;
+fill:#2B8CBE;
+}
+.type2 {
+stroke:#5e735f;
+fill:#ddd;
+}
+.type2.nodetext {
+fill:#aaa;
+stroke: inherit;
+}
+.type2.link {
+stroke: #7BCCC4;
+stroke-dasharray: 1, 1;
+}
+.type2.circle {
+fill-opacity: .5;
+}
+.type3 {
+stroke:#0868AC;
+fill:#74C476;
+}
+.type3.nodetext {
+stroke: inherit;
+}
+.type3.link {
+stroke: #BAE4BC;
+}
+.type3.circle {
+fill-opacity: .5;
+}*/
