@@ -2217,9 +2217,11 @@ console.log(selectnodeLabels)
 			$.ajax({
 				type: "GET",
 				async: true,
-				url: "http://astero.di.uoa.gr/graphstemp/dbfront_temp_fundedarxiv.php",
+				/*url: "http://astero.di.uoa.gr/graphstemp/dbfront_temp_fundedarxiv.php",
 /*nmp commented below to open a smaller db in first loading of page*/
-				data:"s=0.7&ex="+experiment,
+                                url: "http://localhost:8080/MixLDAWEB/webresources/entities.entitysimilarityview/0.6/HEALTHTender_200T_1000IT_0IIT_100B_5M_cos",
+                                data:"",
+				/*data:"s=0.7&ex="+experiment,*/
 				success: function(resp){
 					spinner.stop();
 					myresponse = JSON.parse(resp);
@@ -2514,7 +2516,7 @@ console.log(selectnodeLabels)
 				.append("option")
 				.attr("value",function(d){return d;})
 // below code makes first experiment unselectable					
-				.attr("selected",function(d){if(d == "150T_650IT_10IIT_50B_4M__Grants") return "selected";})
+				.attr("selected",function(d){if(d == "HEALTHTender_200T_1000IT_0IIT_100B_5M_cos") return "selected";})
 				.text(function(d){return d});
 
 
@@ -2525,7 +2527,7 @@ console.log(selectnodeLabels)
 				.append("option")
 				.attr("value",function(d){return d;})
 // below code makes first experiment unselectable					
-				.attr("selected",function(d){if(d == "150T_650IT_10IIT_50B_4M__Grants") return "selected"; else $("#subdivision_btn").attr("style","visibility:hidden;width: 100%; text-align: center; ");})
+				.attr("selected",function(d){if(d == "HEALTHTender_200T_1000IT_0IIT_100B_5M_cos") return "selected"; else $("#subdivision_btn").attr("style","visibility:hidden;width: 100%; text-align: center; ");})
 				.text(function(d){return d});
 
 			search.on("change", function(){

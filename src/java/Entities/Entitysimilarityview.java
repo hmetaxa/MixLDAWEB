@@ -59,7 +59,7 @@ public class Entitysimilarityview implements Serializable {
     private String entityId2;
     @Size(max = 2000000000)
     @Column(name = "Similarity")
-    private String similarity;
+    private double similarity;
     @Id
     @Size(max = 2000000000)
     @Column(name = "ExperimentId")
@@ -126,11 +126,11 @@ public class Entitysimilarityview implements Serializable {
         this.entityId2 = entityId2;
     }
 
-    public String getSimilarity() {
+    public double getSimilarity() {
         return similarity;
     }
 
-    public void setSimilarity(String similarity) {
+    public void setSimilarity(double similarity) {
         this.similarity = similarity;
     }
 
